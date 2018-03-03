@@ -98,11 +98,11 @@ const getImage = function () {
 
 	}
 
-
+	const count = (obj.count ? obj.count : 30)
 
 	let Images = []
 
-	const len = Math.ceil(obj.count / 30)
+	const len = Math.ceil(count / 30)
 
 
 
@@ -154,7 +154,7 @@ const getImage = function () {
 
 					})
 
-					parse = parse.filter((elem, index) => index < obj.count)
+					parse = parse.filter((elem, index) => index < count )
 					
 					callback(err, parse)
 
@@ -185,7 +185,9 @@ const getImageSync = (obj, optionRequest) => {
 
 	let Images = []
 
-	for (let i = 0; i < Math.ceil(obj.count / 30); i++) {
+	const count = (obj.count ? obj.count : 30)
+
+	for (let i = 0; i < Math.ceil(count / 30); i++) {
 
 		const Obj = {
 
@@ -199,7 +201,7 @@ const getImageSync = (obj, optionRequest) => {
 
 	}
 
-	return Images.filter((elem, index) => index < obj.count)
+	return Images.filter((elem, index) => index < count )
 
 } 
 
