@@ -138,8 +138,8 @@ const yapic = require("yandex-pictures")
 
 yapic.getImage({
 
-	text: "гражданская оборона",
-	icolor: "gray",
+    text: "гражданская оборона",
+    icolor: "gray",
     isize: "eq",
     iw: 800,
     ih: 600,
