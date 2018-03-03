@@ -1,7 +1,7 @@
 {
-  "name": "yandex-pix",
+  "name": "yandex-pictures",
   "version": "2.2.8",
-  "description": "yandex pictures module by JSus Dev",
+  "description": "odule to access the internal api yandex pictures",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
