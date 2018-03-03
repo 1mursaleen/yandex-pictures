@@ -59,7 +59,7 @@ const yapic = require("yandex-pictures")
 yapic.getImage({
     
     text: "JSusDev",
-	count: 2
+    count: 2
 
 }, (err, res) => {
 
@@ -74,8 +74,8 @@ const yapic = require("yandex-pictures")
 
 const images = yapic.getImageSync({
 
-	text: "JSusDev",
-	count: 2
+    text: "JSusDev",
+    count: 2
 
 })
 
@@ -91,7 +91,7 @@ const yapic = require("yandex-pictures")
 yapic.getImage({
     
     text: "JSusDev",
-	count: 2
+    count: 2
 
 }, {/* ... options request from lib 'request' ... */}, (err, res) => {
 
@@ -106,8 +106,8 @@ const yapic = require("yandex-pictures")
 
 const images = yapic.getImageSync({
 
-	text: "JSusDev",
-	count: 2
+    text: "JSusDev",
+    count: 2
 
 }, {/* ... options request from lib 'sync-request' ... */})
 
@@ -126,7 +126,7 @@ yapic.getImage({
 
 }, (err, res) => {
 
-	console.log(res)
+    console.log(res)
 
 })
 
@@ -138,8 +138,8 @@ const yapic = require("yandex-pictures")
 
 yapic.getImage({
 
-    text: "гражданская оборона",
-    icolor: "gray",
+	text: "гражданская оборона",
+	icolor: "gray",
     isize: "eq",
     iw: 800,
     ih: 600,
@@ -147,7 +147,7 @@ yapic.getImage({
 
 }, (err, res) => {
 
-console.log(res)
+    console.log(res)
 
 })
 
