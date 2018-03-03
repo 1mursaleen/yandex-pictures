@@ -149,6 +149,15 @@ yapic.getImage({
 
     console.log(res)
 
+    /*
+
+     [ 'https://b1.filmpro.ru/c/261032.jpg',
+       'https://40.img.avito.st/640x480/3649478540.jpg',
+       'http://www.mchs.gov.ru/upload/site1/news_aggregator/tI9gvyPfWB-big-460.jpg' ]
+
+    */    
+   
+
 })
 
 ```
