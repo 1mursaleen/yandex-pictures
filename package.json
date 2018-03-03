@@ -1,0 +1,15 @@
+{
+  "name": "yandex-pix",
+  "version": "2.2.8",
+  "description": "yandex pictures module by JSus Dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JSus Dev",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0",
+    "sync-request": "^5.0.0"
+  }
+}
