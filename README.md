@@ -147,8 +147,8 @@ yapic.getImage({
 
 }, (err, res) => {
 
-	console.log(res)
-	
+console.log(res)
+
 })
 
 ```
