@@ -1,43 +1,31 @@
 {
-  "_from": "yandex-pictures",
-  "_id": "yandex-pictures@2.2.8",
-  "_inBundle": false,
-  "_integrity": "sha512-xQH/uKiqorHR/w1+aQNSxtZqw1BcTrv0sghWSJKcwK6V7145kLJE30po/OUeyL6P31owSpSW1ftlUUvn2ZIQbg==",
-  "_location": "/yandex-pictures",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "yandex-pictures",
-    "name": "yandex-pictures",
-    "escapedName": "yandex-pictures",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/yandex-pictures/-/yandex-pictures-2.2.8.tgz",
-  "_shasum": "a244418dec6dea2922c04537823cc2a52b423ed0",
-  "_spec": "yandex-pictures",
-  "_where": "C:\\Users\\JSus\\Desktop\\allax",
-  "author": {
-    "name": "JSus Dev"
-  },
-  "bundleDependencies": false,
+  "name": "yandex-pictures",
+  "version": "1.4.88",
+  "description": "Yandex pictures api for image search",
+  "main": "index.js",
   "dependencies": {
     "request": "^2.83.0",
     "sync-request": "^5.0.0"
   },
-  "deprecated": false,
-  "description": "yandex pictures module by JSus Dev",
-  "license": "ISC",
-  "main": "index.js",
-  "name": "yandex-pictures",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "2.2.8"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JsusDev/yandex-pictures.git"
+  },
+  "keywords": [
+    "yandex",
+    "pictures",
+    "images",
+    "img",
+    "api"
+  ],
+  "author": "JSus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JsusDev/yandex-pictures/issues"
+  },
+  "homepage": "https://github.com/JsusDev/yandex-pictures#readme"
 }

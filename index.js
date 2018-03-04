@@ -38,7 +38,7 @@ const url = ({text, isize, iw, ih, iorient, type, icolor, itype, url, page, comm
     Url += recent ? `&recent=${recent}` : ""
     Url += wp ? `&wp=${wp}` : ""
     Url += site ? `&site=${site}` : ""
-    Url += family ? `&family=${family}` : ""
+    Url += family != undefined ? `&family=${family}` : ""
 
     Url += '&format=json&request={"blocks":[{"block":"gallery__items:ajax","params":{},"version":2}]}'
 
@@ -68,7 +68,14 @@ const _getImage = function () {
 
 	const Url = { 
 
+		headers: {
+
+			'Cookie':'ipnd=0;'
+ 
+     	},
+
 		...optionRequest,
+	
 		uri: url(obj)
 
 	}
@@ -188,6 +195,28 @@ const getImageSync = (obj, optionRequest) => {
 
 	const count = (obj.count ? obj.count : 30)
 
+	let reqObj = {
+
+		headers: {
+
+			'Cookie':'ipnd=0;'
+ 
+     	}
+
+	}
+
+	if (optionRequest) {
+
+		reqObj = {
+
+			...reqObj, 
+			...optionRequest
+
+		}
+
+	}
+
+
 	for (let i = 0; i < Math.ceil(count / 30); i++) {
 
 		const Obj = {
@@ -198,7 +227,7 @@ const getImageSync = (obj, optionRequest) => {
 
 		} 
 
-		Images = [..._getImageSync(Obj, optionRequest), ...Images]
+		Images = [..._getImageSync(Obj, reqObj), ...Images]
 
 	}
 
