@@ -53,7 +53,7 @@ const yapic = require("yandex-pictures")
 | recent | string | [*, D7] | используется для поиска более свежих картинок |
 | wp | string | [*, wh16x9_1366x768] | используется для поиска картинок для рабочего стола |
 | site | string | * | используется для поиска картинки на определенном сайте |
-| family| string | [0,1,2] | используется для цензурирования поиска 0 - без цензуры 1 - умеренный 2 - семейный поиск |
+| family| int | [0,1,2] | используется для цензурирования поиска 0 - без цензуры 1 - умеренный 2 - семейный поиск |
 
 ### Объект используется в следующих функциях
 _асинхронная функция_
@@ -232,7 +232,7 @@ optional parameter
 | recent | string | [*, D7] | used to find a more recent picture |
 | wp | string | [*, wh16x9_1366x768] | is used to search images for your desktop |
 | site | string | * | used to search for images on the specified site |
-| family| string | [1,2,3] | allows you to configure search security used to censor search 0-uncensored 1-moderate 2-family search |
+| family| int | [1,2,3] | allows you to configure search security used to censor search 0-uncensored 1-moderate 2-family search |
 
 ### The object is used in the following functions
 
