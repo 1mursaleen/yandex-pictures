@@ -1,4 +1,4 @@
-![enter image description here](https://www.wilmerhale.com/uploadedImages/Shared_Content/Images/Homepage/yandex_highlight_slider.jpg)
+![enter image description here](https://jsusdev.github.io/CodeBoard/yalogo.jpg)
 
 ##### lang: [ru](#rulang) [en](#enlang)
 
@@ -232,7 +232,7 @@ optional parameter
 | recent | string | [*, D7] | used to find a more recent picture |
 | wp | string | [*, wh16x9_1366x768] | is used to search images for your desktop |
 | site | string | * | used to search for images on the specified site |
-| family| string | [1,2,3] | used to censor search 0-uncensored 1-moderate 2-family search |
+| family| string | [1,2,3] | allows you to configure search security used to censor search 0-uncensored 1-moderate 2-family search |
 
 ### The object is used in the following functions
 
