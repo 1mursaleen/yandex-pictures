@@ -40,7 +40,7 @@ const url = ({text, isize, iw, ih, iorient, type, icolor, itype, url, page, comm
     Url += site ? `&site=${site}` : ""
     Url += family ? `&family=${family}` : ""
 
-    Url += '&format=json&request={"blocks":[{"block":"gallery__items:ajax","params":{},"version":2}],"bmt":{"lb":"*wA?D1KA}v-3?Puw=Pzy"},"amt":{"las":""}}'
+    Url += '&format=json&request={"blocks":[{"block":"gallery__items:ajax","params":{},"version":2}]}'
 
     return Url
 
