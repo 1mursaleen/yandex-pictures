@@ -45,9 +45,9 @@ optional parameter
 | itype | string | [png, jpg, jpeg, gif] | is used to search for images of a specific file type |
 | page | int | 0 | shift the search page |
 | count | int | 30 | the maximum number of images to return |
-| comm | int | [*, 1] | is used to search for pictures of product |
-| recent | string | [*, D7] | used to find a more recent picture |
-| wp | string | [*, wh16x9_1366x768] | is used to search images for your desktop |
+| comm | int | 1 | is used to search for pictures of product |
+| recent | string | D7 | used to find a more recent picture |
+| wp | string | wh16x9_1366x768 | is used to search images for your desktop |
 | site | string | * | used to search for images on the specified site |
 
 ### the object is used in the following functions
