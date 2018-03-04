@@ -1,4 +1,4 @@
-![enter image description here](http://www.albaygayrimenkul.com/images/sayfalar/600x320/MTU5YTQyMmMzMmQ0MTA.jpg)
+![enter image description here](https://jsusdev.github.io/CodeBoard/yalogo.jpg)
 
 ##### lang: [ru](#rulang) [en](#enlang)
 
