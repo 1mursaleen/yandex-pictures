@@ -1,15 +1,43 @@
 {
-  "name": "yandex-pictures",
-  "version": "2.2.8",
-  "description": "odule to access the internal api yandex pictures",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "yandex-pictures",
+  "_id": "yandex-pictures@2.2.8",
+  "_inBundle": false,
+  "_integrity": "sha512-xQH/uKiqorHR/w1+aQNSxtZqw1BcTrv0sghWSJKcwK6V7145kLJE30po/OUeyL6P31owSpSW1ftlUUvn2ZIQbg==",
+  "_location": "/yandex-pictures",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "yandex-pictures",
+    "name": "yandex-pictures",
+    "escapedName": "yandex-pictures",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "author": "JSus Dev",
-  "license": "ISC",
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/yandex-pictures/-/yandex-pictures-2.2.8.tgz",
+  "_shasum": "a244418dec6dea2922c04537823cc2a52b423ed0",
+  "_spec": "yandex-pictures",
+  "_where": "C:\\Users\\JSus\\Desktop\\allax",
+  "author": {
+    "name": "JSus Dev"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "request": "^2.83.0",
     "sync-request": "^5.0.0"
-  }
+  },
+  "deprecated": false,
+  "description": "yandex pictures module by JSus Dev",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "yandex-pictures",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.2.8"
 }

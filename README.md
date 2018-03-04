@@ -1,7 +1,10 @@
-# yandex-pictures
+##### lang: [ru](#rulang) [en](#enlang)
+
+# yandex-pictures 
+
+![enter image description here](https://www.wilmerhale.com/uploadedImages/Shared_Content/Images/Homepage/yandex_highlight_slider.jpg)
 
 > yandex-pictures - library for pulling Ynadex images 
-
 
 ### Why?
 since Yandex does not have an API to get public images (03.03.2018), yesterday morning I was once again convinced that it does not exist, or rather it is, but only "on paper" [Yandex pictures api](https://yandex.ru/legal/pictures_api/)  , I decided to develop it on the basis of the internal API Yandex images.
@@ -14,7 +17,7 @@ to begin, install the package ```yandex-pictures```
 $ npm install yandex-pictures -s
 ```
 
-### Examples 
+### <a name="enlang">Examples</a> 
 
 connect the module
 ```sh
@@ -45,10 +48,11 @@ optional parameter
 | itype | string | [png, jpg, jpeg, gif] | is used to search for images of a specific file type |
 | page | int | 0 | shift the search page |
 | count | int | 30 | the maximum number of images to return |
-| comm | int | 1 | is used to search for pictures of product |
-| recent | string | D7 | used to find a more recent picture |
-| wp | string | wh16x9_1366x768 | is used to search images for your desktop |
+| comm | int | [*, 1] | is used to search for pictures of product |
+| recent | string | [*, D7] | used to find a more recent picture |
+| wp | string | [*, wh16x9_1366x768] | is used to search images for your desktop |
 | site | string | * | used to search for images on the specified site |
+| family| string | [1,2,3] | allows you to configure search security |
 
 ### the object is used in the following functions
 
@@ -148,15 +152,6 @@ yapic.getImage({
 }, (err, res) => {
 
     console.log(res)
-
-    /*
-
-     [ 'https://b1.filmpro.ru/c/261032.jpg',
-       'https://40.img.avito.st/640x480/3649478540.jpg',
-       'http://www.mchs.gov.ru/upload/site1/news_aggregator/tI9gvyPfWB-big-460.jpg' ]
-
-    */    
-   
 
 })
 
