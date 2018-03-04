@@ -1,4 +1,4 @@
-![enter image description here](https://www.wilmerhale.com/uploadedImages/Shared_Content/Images/Homepage/yandex_highlight_slider.jpg)
+![enter image description here](http://www.albaygayrimenkul.com/images/sayfalar/600x320/MTU5YTQyMmMzMmQ0MTA.jpg)
 
 ##### lang: [ru](#rulang) [en](#enlang)
 
