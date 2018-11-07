@@ -179,7 +179,8 @@ yapic.getImage({
 
 если у вас есть какие-либо вопросы и/или предложения, пожалуйста, напишите мне в телеграмме, если вы найдете ошибки я буду очень благодарен, также дайте мне знать
 
-##### yandex-pictures by JSus
+##### yandex-pictures by JSus 
+![logo](https://jsusdev.github.io/home-page/logo_40.png?, "By JSus")
 
 
 # <a name="enlang">yandex-pictures</a>
@@ -344,4 +345,5 @@ my telegram: @JSusDev, channel https://t.me/Jsusdevs
 if you have any questions and suggestions please email me in telegram if you find bugs I will be very grateful if you also let me know
 
 ##### yandex-pictures by JSus
+![logo](https://jsusdev.github.io/home-page/logo_40.png?, "By JSus")
 
