@@ -177,7 +177,7 @@ yapic.getImage({
 
 Мой Телегам: @JSusDev, канал https://t.me/Jsusdevs
 
-если у вас есть какие-либо вопросы и/или предложения, пожалуйста, напишите мне в телеграмме, если вы найдете ошибки я буду очень благодарен, также дайте мне знать
+если у вас есть какие-либо вопросы и/или предложения, пожалуйста, напишите мне в телеграмме, если вы найдете ошибки я буду очень благодарен, также дайте мне знать.
 
 ![logo](https://jsusdev.github.io/home-page/logo/logo_40.png?, "yandex-pictures by JSus ")
 
@@ -341,7 +341,7 @@ yapic.getImage({
 
 my telegram: @JSusDev, channel https://t.me/Jsusdevs
 
-if you have any questions and suggestions please email me in telegram if you find bugs I will be very grateful if you also let me know
+if you have any questions and suggestions please email me in telegram if you find bugs I will be very grateful if you also let me know.
 
 ![logo](https://jsusdev.github.io/home-page/logo/logo_40.png?, "yandex-pictures by JSus ")
 
