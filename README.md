@@ -48,7 +48,7 @@ const yapic = require("yandex-pictures")
 | icolor | string | [orange, color, gray, red, orange, yellow, cyan, green, blue] | используется для поиска картинки определенной цветовой гаммы |
 | itype | string | [png, jpg, jpeg, gif] | используется для поиска картинки определенного типа файлов |
 | page | int | 0-49 | используется для поиска картинки на точной позиции (смещении) |
-| count | int | 1-1500 | необходимое количество картинок которое нужно вернуть |
+| count | int | 1-30 | необходимое количество картинок которое нужно вернуть |
 | comm | int | [*, 1] | используется для поиска картинки в качестве товара |
 | recent | string | [*, D7] | используется для поиска более свежих картинок |
 | wp | string | [*, wh16x9_1366x768] | используется для поиска картинок для рабочего стола |
@@ -75,6 +75,18 @@ yapic.getImage({
        пустой массив */
 
 }) 
+```
+
+_асинхронная (promise) функция_
+```sh
+const yapic = require("yandex-pictures")
+
+yapic.getImage({
+    
+    text: "JSusDev",
+    count: 2
+
+}).then(console.log)
 ```
 
 _синхронная функция_
@@ -227,7 +239,7 @@ optional parameter
 | icolor | string | [orange, color, gray, red, orange, yellow, cyan, green, blue] | used to search for color pictures |
 | itype | string | [png, jpg, jpeg, gif] | is used to search for images of a specific file type |
 | page | int | 0-49 | shift the search page |
-| count | int | 1-1500 | the maximum number of images to return |
+| count | int | 1-30 | the maximum number of images to return |
 | comm | int | [*, 1] | is used to search for pictures of product |
 | recent | string | [*, D7] | used to find a more recent picture |
 | wp | string | [*, wh16x9_1366x768] | is used to search images for your desktop |
@@ -251,6 +263,19 @@ yapic.getImage({
 
 }) 
 ```
+
+_asynchronous (promise) function_
+```sh
+const yapic = require("yandex-pictures")
+
+yapic.getImage({
+    
+    text: "JSusDev",
+    count: 2
+
+}).then(console.log) 
+```
+
 
 _synchronous function_
 ```sh

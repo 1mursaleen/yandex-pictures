@@ -1,8 +1,8 @@
 {
   "name": "yandex-pictures",
-  "version": "1.4.88",
+  "version": "1.5.88",
   "description": "Yandex pictures api for image search",
-  "main": "index.js",
+  "main": "src",
   "dependencies": {
     "request": "^2.83.0",
     "sync-request": "^5.0.0"
